@@ -1,8 +1,9 @@
 #written by gerald spilinek
 #last updated 09/25/2021
 
-
 #input rows, cols, matrix
+#output a spiral traversal of said input matrix
+
 def main():
     r=5 #rows
     c=20 #cols
@@ -66,7 +67,6 @@ def main():
         cstart+=1
 
     print()    
-#output a spiral traversal of said input matrix
 
 if __name__ == '__main__':
     main()
